@@ -1,0 +1,59 @@
+body {
+  font-family: 'Avenir-LT-W01_35-Light1475496', sans-serif;
+}
+
+div.kimbiaDiv div.inputGroup, div.kimbiaDiv div.inputGroup.k_rbGroup {
+  padding: 0.6rem;
+  border-radius: 0.1rem;
+  margin-bottom: 0.1rem;
+  margin-left: 0;
+}
+
+div.kimbiaDiv.two_col label.k_paymentPlanTitle {
+  padding-bottom: 0.2em;
+  font-weight: bold;
+}
+
+div.kimbiaDiv span.fieldCaption {
+  margin-bottom: 0;
+}
+
+div.kimbiaDiv input.k_number, div.kimbiaDiv input.k_text, div.kimbiaDiv input.k_money, div.kimbiaDiv textarea.k_textarea {
+  background-color: #e2e5e5;
+  border: none;
+  border-radius: 0.1rem;
+  padding: 0.5rem;
+}
+
+div.kimbiaDiv input.k_number.k_required, div.kimbiaDiv input.k_text.k_required, div.kimbiaDiv input.k_money.k_required, div.kimbiaDiv textarea.k_textarea.k_required {
+  border-color: #c3c3c3;
+}
+
+div.kimbiaDiv div.k_shareThisFormBlock {
+  display: none;
+}
+
+.errDiv ul {
+  list-style: none;
+  margin-left: 0;
+  padding: 0.6rem;
+}
+
+button.k_button {
+  padding: 0.6rem;
+  color: white;
+  background-color: #043667;
+  border: none;
+}
+
+button.k_button:hover {
+  color: white;
+  background-color: #043667;
+}
+
+@font-face{
+  font-family:"Avenir-LT-W01_35-Light1475496";
+  src:url("//static.parastorage.com/services/third-party/fonts/user-site-fonts/fonts/edefe737-dc78-4aa3-ad03-3c6f908330ed.eot?#iefix");
+  src:url("//static.parastorage.com/services/third-party/fonts/user-site-fonts/fonts/edefe737-dc78-4aa3-ad03-3c6f908330ed.eot?#iefix") format("eot"),url("//static.parastorage.com/services/third-party/fonts/user-site-fonts/fonts/0078f486-8e52-42c0-ad81-3c8d3d43f48e.woff2") format("woff2"),url("//static.parastorage.com/services/third-party/fonts/user-site-fonts/fonts/908c4810-64db-4b46-bb8e-823eb41f68c0.woff") format("woff"),url("//static.parastorage.com/services/third-party/fonts/user-site-fonts/fonts/4577388c-510f-4366-addb-8b663bcc762a.ttf") format("truetype"),url("//static.parastorage.com/services/third-party/fonts/user-site-fonts/fonts/b0268c31-e450-4159-bfea-e0d20e2b5c0c.svg#b0268c31-e450-4159-bfea-e0d20e2b5c0c") format("svg");
+}
+
